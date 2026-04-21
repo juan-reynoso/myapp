@@ -6,13 +6,6 @@ if(isset($_COOKIE["id_usuario"])) {
     header("Location: dashboard.php");
     exit();
 }
-
-
-
-if ($_SESSION['id_usuario']) {
-    header("Location: dashboard.html");
-    exit();
-}
 ?>
 
 
